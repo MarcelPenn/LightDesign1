@@ -58,3 +58,17 @@ function filterImg(e) {
                 img.classList.add('img-expanded');
             });
     });
+
+    //scroll effect 
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if (scroll > 100) {
+              $("header").css("background" , "#D3D3D3");
+            }
+      
+            else{
+                $("header").css("background" , "transparent");  	
+            }
+        })
+      })

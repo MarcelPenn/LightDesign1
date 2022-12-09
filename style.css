@@ -7,10 +7,21 @@
     text-decoration: none;
 }
 
+.logo {
+    color: #212121;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #f76b6a;
+    border-radius: 50%;
+    display: inline-block;
+}
 header {
     position: fixed;
     width: 100%;
     top: 0;
+    height: 80px;
     right: 0;
     z-index: 1000;
     display: flex;
@@ -25,10 +36,6 @@ header {
     z-index: 10001;
     cursor: pointer;
     display: none;
-}
-.logo img {
-    width: 100%;
-    height: auto;
 }
 
 .navbar {
