@@ -91,6 +91,7 @@ section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+   
 }
 
 .text h4 {
@@ -101,13 +102,21 @@ section {
     letter-spacing: 10px;
 }
 
+
 .text h1 {
     font-size: 55px;
-    color: #333333;
     text-transform: capitalize;
     letter-spacing: 1px;
     line-height: 70px;
+    background-image: url(img/slider03.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
 }
+
+
 
 .text p {
     color: #333333;
