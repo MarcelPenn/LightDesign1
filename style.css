@@ -6,9 +6,11 @@
     list-style: none;
     text-decoration: none;
 }
-
+.text {
+    z-index: 1;
+}
 .logo {
-    color: #212121;
+    color: darkslategrey
 }
 .dot {
     height: 10px;
@@ -92,12 +94,13 @@ section {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(img/slider02.jpg);
+    background-image: url(img/back.jpg);
     background-position: center;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+   
    
 }
 
@@ -173,14 +176,14 @@ section {
     font-weight: bold;
     border: none;
     background: #fff;
-    color: #111;
+    color: #212121;
     border-radius: .8em;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .buttons .btn-clicked {
-    background: #111;
+    background: #212121;
     color: #f7686a;
 }
 
