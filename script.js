@@ -63,8 +63,9 @@ function filterImg(e) {
     $(document).ready(function(){
         $(window).scroll(function(){
             var scroll = $(window).scrollTop();
+            var imageUrl = "img/slider03.jpg";
             if (scroll > 100) {
-              $("header").css("background" , "#D3D3D3");
+    $("header").css("background", "#f1f1f1");
             }
       
             else{
